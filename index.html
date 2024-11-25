@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Table</title>
+    <style>
+        * {
+            margin: 50px auto;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 800px;
+            height: 350px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        th,
+        td,
+        tr {
+            height: 10px;
+        }
+
+        h1 {
+            border: 2PX outset rgb(93, 61, 255);
+            width: 300PX;
+            border-radius: 20px 0 20px 0;
+            box-shadow: 5px 5px 10px rgb(199, 171, 255);
+            background-color: #acfff9d2;
+            padding: 8px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>2nd Table Project</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <!-- 1st Row -->
+        <tr>
+            <td colspan="2" style="background-color: red;"></td>
+            <td style="background-color: rgb(21, 0, 255);"></td>
+            <td style="background-color: red;"></td>
+            <td colspan="2" style="background-color: red;"></td>
+            <td colspan="2" style="background-color: rgb(0, 115, 8);"></td>
+        </tr>
+        <!-- 2nd Row -->
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: rgb(0, 115, 8)"></td>
+            <td rowspan="4" colspan="2" style="background-color:aqua"></td>
+            <td rowspan="4" colspan="2" style="background-color:rgb(44, 244, 161)"></td>
+            <td rowspan="4" colspan="2" style="background-color:rgb(157, 0, 255)"></td>
+        </tr>
+        <tr></tr>
+
+        <!-- 3rd Row -->
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: rgb(115, 29, 0)"></td>
+        </tr>
+        <tr></tr>
+        <!-- 4th Row -->
+
+        <tr>
+            <td rowspan="3" colspan="3" style="background-color: rgb(244, 19, 19)"></td>
+            <td rowspan="3" style="background-color: rgb(255, 111, 9)"></td>
+            <td rowspan="3" colspan="4" style="background-color: rgb(30, 2, 217)"></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <!-- 5th Row -->
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color:blue"></td>
+            <td rowspan="2" colspan="2" style="background-color:tomato"></td>
+            <td rowspan="2" colspan="2" style="background-color:crimson"></td>
+            <td rowspan="2" colspan="2" style="background-color:darksalmon"></td>
+        </tr>
+        <tr></tr>
+    </table>
+
+</body>
+
+</html>
